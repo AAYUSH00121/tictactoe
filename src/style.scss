@@ -1,9 +1,12 @@
 $green: #12e177;
 $orange: #ffc72a;
 $blue: #4c43d4;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   background-color: $blue;
   color: #fff;
   padding: 0;
@@ -69,7 +72,7 @@ button {
 
 .status-message {
   margin-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: lighter;
   span {
     font-weight: normal;
