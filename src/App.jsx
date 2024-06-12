@@ -80,7 +80,10 @@ const isReset = () => {
       </button>
       <h3>Game History</h3>
       <History history={history} moveTo={moveTo} currentMove={currentMove}/>
+
+      <div className="bg-balls"></div>
     </div>
+   
   )
 }
 
