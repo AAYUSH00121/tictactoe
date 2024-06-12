@@ -71,6 +71,7 @@ const isReset = () => {
 
   return (
     <div className="app">
+      <h1>TIC <span className="text-orange">TAC</span> TOE</h1>
       <Status winner={winner} gamingBoard={gamingBoard} />
       <Board square={gamingBoard.square} handleSquareClick={handleSquareClick} winnerSquare = {winnerSquare}/>
       
